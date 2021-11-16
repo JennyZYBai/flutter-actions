@@ -53,14 +53,14 @@ class _MyHomePageState extends State<MyHomePage> {
             new Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                new RaisedButton(
+                new ElevatedButton(
                   child: new Text("TOAST"),
                   onPressed: _toastPressed,
                 ),
-                new RaisedButton(
+                new ElevatedButton(
                   child: new Text("COUNT"),
                 ),
-                new RaisedButton(
+                new ElevatedButton(
                   child: new Text("RANDOM"),
                 ),
               ],
