@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             new Text(
               '$_counter',
-              style: Theme.of(context).textTheme.display1,
+              // style: Theme.of(context).textTheme.display1,
             ),
             new Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -57,12 +57,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: new Text("TOAST"),
                   onPressed: _toastPressed,
                 ),
-                new ElevatedButton(
-                  child: new Text("COUNT"),
-                ),
-                new ElevatedButton(
-                  child: new Text("RANDOM"),
-                ),
+                // new ElevatedButton(
+                //   child: new Text("COUNT"),
+                // ),
+                // new ElevatedButton(
+                //   child: new Text("RANDOM"),
+                // ),
               ],
             ),
           ],
